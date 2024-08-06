@@ -49,12 +49,47 @@ const Users = [
     },
 ]
 
-console.log(Users[1].email);
+// console.log(Users[1].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLogged")); // check property avilable or not
+// console.log(tinderUser.hasOwnProperty("isLogged")); // check property avilable or not
+
+
+ // object destructure
+
+const course = {
+    coursename: "js in hindi",
+    price: "9990",
+    courseteacher: "Hitesh"
+}
+
+// console.log(course.courseteacher);
+
+// const {courseteacher} = course
+// console.log(courseteacher);
+
+const {courseteacher :teacher} = course
+console.log(teacher);
+
+
+// API file format object , Array
+
+// JSON 
+// Object
+
+// {
+//    " name": "Subham Maharana",
+//    " coursename": "JS in hindi",
+//    " price" :"free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
