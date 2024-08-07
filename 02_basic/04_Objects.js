@@ -88,6 +88,8 @@ console.log(teacher);
 //    " price" :"free"
 // }
 
+
+//Arrays
 // [
 //     {},
 //     {},

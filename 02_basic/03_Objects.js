@@ -38,9 +38,9 @@ JsUser.greetingTwo = function(){
 }
 
 // console.log(JsUser.greeting);       //function reference
-console.log(JsUser.greeting());
+// console.log(JsUser.greeting());
 
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greetingTwo());
 
 
 // We access the Object Value with " . " & other hand access in  " [ ]" .
